@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BC2C28DA38D211A57F1B321 /* Pods_LibraFinalVersion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE46415EC0666D8B34E0573 /* Pods_LibraFinalVersion.framework */; };
+		72A9B3DB27253194005E61DE /* messages_vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A9B3DA27253194005E61DE /* messages_vc.swift */; };
+		72A9B3DF27253542005E61DE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A9B3DE27253542005E61DE /* ChatViewController.swift */; };
 		72AAF98527252E6A00A06C33 /* therapy_Vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AAF98427252E6A00A06C33 /* therapy_Vc.swift */; };
 		72BB21532724941F00778A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB21522724941F00778A1A /* AppDelegate.swift */; };
 		72BB21552724941F00778A1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB21542724941F00778A1A /* SceneDelegate.swift */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		163A7B993A6D9944C390266A /* Pods-LibraFinalVersion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraFinalVersion.release.xcconfig"; path = "Target Support Files/Pods-LibraFinalVersion/Pods-LibraFinalVersion.release.xcconfig"; sourceTree = "<group>"; };
+		72A9B3DA27253194005E61DE /* messages_vc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messages_vc.swift; sourceTree = "<group>"; };
+		72A9B3DE27253542005E61DE /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		72AAF98427252E6A00A06C33 /* therapy_Vc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = therapy_Vc.swift; sourceTree = "<group>"; };
 		72BB214F2724941F00778A1A /* LibraFinalVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraFinalVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BB21522724941F00778A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,8 @@
 		72BB216D27249A1E00778A1A /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
 		72BB216F27249DE600778A1A /* UpcomingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingTableViewCell.swift; sourceTree = "<group>"; };
 		72BB217027249DE600778A1A /* UpcomingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingTableViewCell.xib; sourceTree = "<group>"; };
+		8AE46415EC0666D8B34E0573 /* Pods_LibraFinalVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraFinalVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A499DE8754B070AC1538448F /* Pods-LibraFinalVersion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraFinalVersion.debug.xcconfig"; path = "Target Support Files/Pods-LibraFinalVersion/Pods-LibraFinalVersion.debug.xcconfig"; sourceTree = "<group>"; };
 		D6557B6D2724FE7B00EB90FE /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 		D6557B6F2725008C00EB90FE /* surveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = surveyQuestion.swift; path = LibraFinalVersion/Controller/surveyQuestion.swift; sourceTree = SOURCE_ROOT; };
 		D6557B71272500CF00EB90FE /* surveyQuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = surveyQuestionData.swift; path = LibraFinalVersion/Controller/surveyQuestionData.swift; sourceTree = SOURCE_ROOT; };
@@ -49,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC2C28DA38D211A57F1B321 /* Pods_LibraFinalVersion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B1247E8EFF5E1FEC4819D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A499DE8754B070AC1538448F /* Pods-LibraFinalVersion.debug.xcconfig */,
+				163A7B993A6D9944C390266A /* Pods-LibraFinalVersion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		72BB21462724941F00778A1A = {
 			isa = PBXGroup;
 			children = (
 				72BB21512724941F00778A1A /* LibraFinalVersion */,
 				72BB21502724941F00778A1A /* Products */,
+				24B1247E8EFF5E1FEC4819D6 /* Pods */,
+				D215482FD8AC068F6EE18AAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +116,8 @@
 				72BB216D27249A1E00778A1A /* homeVC.swift */,
 				D6557B6D2724FE7B00EB90FE /* SurveyViewController.swift */,
 				72AAF98427252E6A00A06C33 /* therapy_Vc.swift */,
+				72A9B3DA27253194005E61DE /* messages_vc.swift */,
+				72A9B3DE27253542005E61DE /* ChatViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -118,6 +140,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		D215482FD8AC068F6EE18AAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AE46415EC0666D8B34E0573 /* Pods_LibraFinalVersion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72BB21632724942100778A1A /* Build configuration list for PBXNativeTarget "LibraFinalVersion" */;
 			buildPhases = (
+				CF95B512995B523C63654E2B /* [CP] Check Pods Manifest.lock */,
 				72BB214B2724941F00778A1A /* Sources */,
 				72BB214C2724941F00778A1A /* Frameworks */,
 				72BB214D2724941F00778A1A /* Resources */,
+				3F7C446C69D4FA02C2699764 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,11 +217,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F7C446C69D4FA02C2699764 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LibraFinalVersion/Pods-LibraFinalVersion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LibraFinalVersion/Pods-LibraFinalVersion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LibraFinalVersion/Pods-LibraFinalVersion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF95B512995B523C63654E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibraFinalVersion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72BB214B2724941F00778A1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A9B3DB27253194005E61DE /* messages_vc.swift in Sources */,
 				72BB2169272496AA00778A1A /* InitialCheckupVC.swift in Sources */,
 				72BB216E27249A1E00778A1A /* homeVC.swift in Sources */,
 				D6557B6E2724FE7B00EB90FE /* SurveyViewController.swift in Sources */,
@@ -198,6 +273,7 @@
 				72BB217127249DE600778A1A /* UpcomingTableViewCell.swift in Sources */,
 				72BB21672724966C00778A1A /* K.swift in Sources */,
 				72BB21532724941F00778A1A /* AppDelegate.swift in Sources */,
+				72A9B3DF27253542005E61DE /* ChatViewController.swift in Sources */,
 				72BB21552724941F00778A1A /* SceneDelegate.swift in Sources */,
 				D6557B72272500CF00EB90FE /* surveyQuestionData.swift in Sources */,
 				72AAF98527252E6A00A06C33 /* therapy_Vc.swift in Sources */,
@@ -344,6 +420,7 @@
 		};
 		72BB21642724942100778A1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A499DE8754B070AC1538448F /* Pods-LibraFinalVersion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -372,6 +449,7 @@
 		};
 		72BB21652724942100778A1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 163A7B993A6D9944C390266A /* Pods-LibraFinalVersion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
